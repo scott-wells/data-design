@@ -1,13 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Use Case</title>
+	</head>
+
+	<body>
+
+		<h2>User Story</h2>
+		<p>As a user, Caleb would like to find and pay for copyright free music for his video project.</p>
+
+		<hr/>
+
+		<h2>Use Case</h2>
+
+		<p><strong>Title:</strong> Purchasing a copyright-free song</p>
+
+		<p><strong>Description:</strong> Caleb wants to purchase a high-quality, copyright-free music track from Musicbed.com</p>
+
+		<p><strong>User Name & Their Role:</strong> Caleb; video editor who is searching for copyright-free music on the Internet</p>
+
+		<p><strong>Usage Preconditions:</strong> Must have a Musicbed.com account and be logged in</p>
+
+		<p><strong>Usage Postconditions:</strong> Song is downloaded as an audio file to Caleb's computer</p>
+
+		<p><strong>Interaction Flow:</strong></p>
+		<ul>
+			<li></li>
+		</ul>
+
+	</body>
+</html>
 
 
-// USER STORY - As a user, Caleb would like to find and pay for copyright free music for his video project.
-
-/* USE CASE
-Title: Purchasing a copyright-free song
-Description: Caleb wants to purchase a high-quality, copyright-free music track from Musicbed.com
-User Name & Their Role: Caleb; video editor who is searching for copyright-free music on the Internet
-Usage Preconditions: Must have a Musicbed account and be logged in
-Usage Postconditions: Song is downloaded as an audio file to Caleb's computer
 Interaction Flow:
 	- Caleb enters musicbed.com into his web browser
 	- Server returns musicbed.com's homepage
