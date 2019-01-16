@@ -53,6 +53,8 @@
 			</ul></li>
 		</ul>
 
+		<hr/>
+
 	</body>
 </html>
 
