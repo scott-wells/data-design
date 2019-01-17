@@ -29,7 +29,7 @@
 			<li>trackVocalsId (foreign key)</li>
 			<li>trackPriceLicenseId (foreign key)</li>
 			<li>trackLength</li>
-
+			<li>trackName</li>
 		</ul>
 
 		<p><strong>Favorites</strong></p>
