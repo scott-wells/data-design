@@ -9,17 +9,11 @@
 
 		<h1>Data Design Project</h1>
 
-		<?php include "caleb-navarro.php"; ?>
+		<p><a href="caleb-navarro.php">User Persona</a></p>
 
-		<hr/>
+		<p><a href="use-case.php">Use Case</a></p>
 
-		<?php include "use-case.php"; ?>
-
-		<hr/>
-
-		<?php include "conceptual-model.php"; ?>
-
-		<hr/>
+		<p><a href="conceptual-model.php">Conceptual Model & ERD Diagram</a></p>
 
 	</body>
 </html>
