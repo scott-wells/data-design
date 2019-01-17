@@ -24,21 +24,25 @@
 			<li>trackAlbumId</li>
 			<li>trackGenreId</li>
 			<li>trackMoodId</li>
-			<li>trackInstrumentsId</li>
+			<li>trackVocalsId</li>
 			<li>trackLengthId</li>
+			<li>trackPrice</li>
 		</ul>
 
-		<p><strong>User Favorites</strong></p>
+		<p><strong>Favorites</strong></p>
 		<ul>
-			<li>userFavortiesId</li>
-			<li>userFavoritesIdtrackId</li>
+			<li>favortiesUserId</li>
+			<li>favoritesTrackId</li>
 		</ul>
 
 		<p><strong>Cart</strong></p>
 		<ul>
-			<li>cartId</li>
-			<li>userCartId</li>
-			<li>userPassword</li>
+			<li>cartIdUserId</li>
+			<li>cartTrackId</li>
+			<li>cartVocalsId</li>
+			<li>cartLicenseId</li>
+			<li>cartQuantityTrackId</li>
+			<li>cartTotalTrackPrice</li>
 		</ul>
 
 	</body>
