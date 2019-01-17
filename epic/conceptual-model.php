@@ -9,6 +9,8 @@
 
 		<h2>Conceptual Model</h2>
 
+		<h3>Entities & Attributes:</h3>
+
 		<p><strong>User</strong></p>
 		<ul>
 			<li>userId (primary key)</li>
@@ -44,6 +46,16 @@
 			<li>cartVocalsId (foreign key)</li>
 			<li>cartTotal</li>
 		</ul>
+
+		<h3>Relations</h3>
+		<ul>
+			<li>ONE user selects MANY tracks (1 - M)</li>
+			<li>ONE track can be added to ONE cart (1 - 1)</li>
+			<li>ONE track can be added to ONE favorites list (1 -1)</li>
+		</ul>
+
+		<h2>Entity Relationship Diagram</h2>
+		<img src="musicbed-erd-diagram.png" alt="musicbed erd diagram" style="max-width: 50%;"/>
 
 	</body>
 </html>
