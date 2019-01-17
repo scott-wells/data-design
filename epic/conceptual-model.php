@@ -11,38 +11,38 @@
 
 		<p><strong>User</strong></p>
 		<ul>
-			<li>userId</li>
-			<li>userName</li>
+			<li>userId (primary key)</li>
 			<li>userEmail</li>
+			<li>userName</li>
 			<li>userPassword</li>
 		</ul>
 
 		<p><strong>Track</strong></p>
 		<ul>
-			<li>trackId</li>
-			<li>trackArtistId</li>
-			<li>trackAlbumId</li>
-			<li>trackGenreId</li>
-			<li>trackMoodId</li>
-			<li>trackVocalsId</li>
-			<li>trackLengthId</li>
-			<li>trackPrice</li>
+			<li>trackId (primary key)</li>
+			<li>trackAlbumId (foreign key)</li>
+			<li>trackArtistId (foreign key)</li>
+			<li>trackGenreId (foreign key)</li>
+			<li>trackMoodId (foreign key)</li>
+			<li>trackVocalsId (foreign key)</li>
+			<li>trackPriceLicenseId (foreign key)</li>
+			<li>trackLength</li>
+
 		</ul>
 
 		<p><strong>Favorites</strong></p>
 		<ul>
-			<li>favortiesUserId</li>
-			<li>favoritesTrackId</li>
+			<li>favoritesTrackId (foreign key)</li>
+			<li>favortiesUserId (primary key)</li>
 		</ul>
 
 		<p><strong>Cart</strong></p>
 		<ul>
-			<li>cartIdUserId</li>
-			<li>cartTrackId</li>
-			<li>cartVocalsId</li>
-			<li>cartLicenseId</li>
-			<li>cartQuantityTrackId</li>
-			<li>cartTotalTrackPrice</li>
+			<li>cartLicenseId (foreign key)</li>
+			<li>cartTrackId (foreign key)</li>
+			<li>cartUserId (foreign key)</li>
+			<li>cartVocalsId (foreign key)</li>
+			<li>cartTotal</li>
 		</ul>
 
 	</body>
