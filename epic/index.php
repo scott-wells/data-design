@@ -11,7 +11,15 @@
 
 		<?php include "caleb-navarro.php"; ?>
 
+		<hr/>
+
 		<?php include "use-case.php"; ?>
+
+		<hr/>
+
+		<?php include "conceptual-model.php"; ?>
+
+		<hr/>
 
 	</body>
 </html>
