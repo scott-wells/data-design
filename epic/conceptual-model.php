@@ -22,14 +22,9 @@
 		<p><strong>Track</strong></p>
 		<ul>
 			<li>trackId (primary key)</li>
-			<li>trackAlbumId (foreign key)</li>
-			<li>trackArtistId (foreign key)</li>
-			<li>trackGenreId (foreign key)</li>
-			<li>trackMoodId (foreign key)</li>
-			<li>trackVocalsId (foreign key)</li>
-			<li>trackPriceLicenseId (foreign key)</li>
 			<li>trackLength</li>
 			<li>trackName</li>
+			<li>trackPrice</li>
 		</ul>
 
 		<p><strong>Favorites</strong></p>
@@ -40,10 +35,8 @@
 
 		<p><strong>Cart</strong></p>
 		<ul>
-			<li>cartLicenseId (foreign key)</li>
 			<li>cartTrackId (foreign key)</li>
 			<li>cartUserId (foreign key)</li>
-			<li>cartVocalsId (foreign key)</li>
 			<li>cartTotal</li>
 		</ul>
 
@@ -51,7 +44,7 @@
 		<ul>
 			<li>ONE user selects MANY tracks (1 - M)</li>
 			<li>ONE track can be added to ONE cart (1 - 1)</li>
-			<li>ONE track can be added to ONE favorites list (1 -1)</li>
+			<li>ONE favorites list can have MANY tracks (1 - M)</li>
 		</ul>
 
 		<h2>Entity Relationship Diagram</h2>

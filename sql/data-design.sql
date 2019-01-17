@@ -1,4 +1,4 @@
-ALTER DATABASE `data`-design.sql CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+ALTER DATABASE data-design.sql CHARACTER SET utf8 COLLATE utf8_unicode_ci;
 
 DROP TABLE IF EXISTS cart;
 DROP TABLE IF EXISTS favorites;
@@ -56,7 +56,7 @@ CREATE TABLE cart (
 	cartTrackId BINARY(16) NOT NULL,
 	cartUserId BINARY(16) NOT NULL,
 	cartVocalsId BINARY(16) NOT NULL,
-	cartTotal DEC(M, 2) NOT NULL,
+	cartTotal DEC(18, 2) NOT NULL,
 	INDEX(cartLicenseId),
 	INDEX(cartTrackId),
 	INDEX(cartUserId),
