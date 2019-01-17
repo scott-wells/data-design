@@ -1,4 +1,4 @@
-ALTER DATABASE 'data-design.sql' CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+ALTER DATABASE swells19 CHARACTER SET utf8 COLLATE utf8_unicode_ci;
 
 DROP TABLE IF EXISTS cart;
 DROP TABLE IF EXISTS favorites;
