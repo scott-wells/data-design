@@ -55,7 +55,7 @@
 		</ul>
 
 		<h2>Entity Relationship Diagram</h2>
-		<img src="musicbed-erd-diagram.png" alt="musicbed erd diagram" style="max-width: 50%;"/>
+		<img src="musicbed-erd-diagram.png" alt="musicbed erd diagram" style="max-width: 65%;"/>
 
 	</body>
 </html>
