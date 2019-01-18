@@ -14,7 +14,9 @@
 		<p><strong>User</strong></p>
 		<ul>
 			<li>userId (primary key)</li>
+			<li>userActivationToken</li>
 			<li>userEmail</li>
+			<li>userHash</li>
 			<li>userName</li>
 			<li>userPassword</li>
 		</ul>

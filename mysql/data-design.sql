@@ -7,8 +7,10 @@ DROP TABLE IF EXISTS `user`;
 
 CREATE TABLE `user` (
 	userId BINARY(16) NOT NULL,
-	userName VARCHAR(32) NOT NULL,
+	userActivationToken CHAR(32),
 	userEmail VARCHAR(32) NOT NULL,
+	userHash CHAR(97) NOT NULL,
+	userName VARCHAR(32) NOT NULL,
 	userPassword VARCHAR(32) NOT NULL,
 	UNIQUE(userId),
 	UNIQUE(userEmail),
