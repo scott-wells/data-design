@@ -1,0 +1,1 @@
+INSERT INTO `user` (userId, userActivationToken, userEmail, userHash, userName, userPassword) VALUES (UNHEX(d82d712d2a2e448ca59c8f9a82b90a86), "nananananananananananananananana", email@email.com, "nanananananananananananananananananananananananananananananananananananananananananananananananaa", Joe Smith, );

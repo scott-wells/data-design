@@ -11,7 +11,6 @@ CREATE TABLE `user` (
 	userEmail VARCHAR(32) NOT NULL,
 	userHash CHAR(97) NOT NULL,
 	userName VARCHAR(32) NOT NULL,
-	userPassword VARCHAR(32) NOT NULL,
 	UNIQUE(userId),
 	UNIQUE(userEmail),
 	PRIMARY KEY(userId)

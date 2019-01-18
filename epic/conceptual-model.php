@@ -18,7 +18,6 @@
 			<li>userEmail</li>
 			<li>userHash</li>
 			<li>userName</li>
-			<li>userPassword</li>
 		</ul>
 
 		<p><strong>Track</strong></p>
