@@ -4,4 +4,6 @@ INSERT INTO `user` (userId, userActivationToken, userEmail, userHash, userName) 
 
 INSERT INTO `user` (userId, userActivationToken, userEmail, userHash, userName) VALUES (UNHEX("b7d85b6659fd4176a127030b1aa825be"), "nananananananananananananananana", "email02@email.com", "nanananananananananananananananananananananananananananananananananananananananananananananananaa", "Jody Smith");
 
-UPDATE `user` SET userName = "Marvin Gaye" WHERE userId = UNHEX("b7d85b6659fd4176a127030b1aa825be");
+UPDATE `user` SET userName = 'Marvin Gaye' WHERE userId = UNHEX("b7d85b6659fd4176a127030b1aa825be");
+
+DELETE FROM `user` WHERE userId = UNHEX("d82d712d2a2e448ca59c8f9a82b90a86");
