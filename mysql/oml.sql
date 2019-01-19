@@ -12,3 +12,4 @@ INSERT INTO track (trackId, trackLength, trackName, trackPrice) VALUES (UNHEX('8
 
 INSERT INTO favorites (favoritesTrackId, favoritesUserId) VALUES (UNHEX('8f5eebf4f57e46bc9d4d4e873d0b95c8'), UNHEX('8e8c326f3248414d9d6769f13aff94c4'));
 
+SELECT * FROM `user` WHERE userId = UNHEX('8e8c326f3248414d9d6769f13aff94c4');
