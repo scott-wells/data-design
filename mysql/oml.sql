@@ -21,10 +21,10 @@ UPDATE `user` SET userName = "Marvin Gaye" WHERE userId = UNHEX("8cd8c76744ff4ff
 DELETE FROM `user` WHERE userId = UNHEX("d82d712d2a2e448ca59c8f9a82b90a86");
 
 -- select everything in the `user` table
-SELECT * FROM `user`;
+SELECT trackName FROM track WHERE trackPrice = "49.99";
 
 -- select and count everything in the `user` table where name contains 'smith'
-SELECT COUNT(*) FROM `user` WHERE userName LIKE "%Smith%";
+SELECT COUNT(userId) FROM `user` WHERE userName LIKE "%Smith%";
 
 -- select from favorites table and join to
 SELECT favorites.favoritesUserId, favorites.favoritesTrackId FROM favorites INNER JOIN `user` ON `user`.userId = favorites.favoritesUserId;
