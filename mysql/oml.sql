@@ -12,10 +12,10 @@ INSERT INTO track (trackId, trackLength, trackName, trackPrice) VALUES (UNHEX("7
 
 -- inserting songs into a user favorites playlist
 INSERT INTO favorites (favoritesTrackId, favoritesUserId) VALUES (UNHEX("8f5eebf4f57e46bc9d4d4e873d0b95c8"), UNHEX("8e8c326f3248414d9d6769f13aff94c4"));
-INSERT INTO favorites (favoritesTrackId, favoritesUserId) VALUES (UNHEX("8f5eebf4f57e46bc9d4d4e873d0b95c8"), UNHEX("b7d85b6659fd4176a127030b1aa825be"));
+INSERT INTO favorites (favoritesTrackId, favoritesUserId) VALUES (UNHEX("7f5a68481dd34153a94754ae0be64633"), UNHEX("b7d85b6659fd4176a127030b1aa825be"));
 
 -- update record in `user` table
-UPDATE `user` SET userName = "Marvin Gaye" WHERE userId = UNHEX("8e8c326f3248414d9d6769f13aff94c4");
+UPDATE `user` SET userName = "Marvin Gaye" WHERE userId = UNHEX("8cd8c76744ff4ff6a47d1fe72983cc1f");
 
 -- delete record from `user` table
 DELETE FROM `user` WHERE userId = UNHEX("d82d712d2a2e448ca59c8f9a82b90a86");
@@ -24,6 +24,7 @@ DELETE FROM `user` WHERE userId = UNHEX("d82d712d2a2e448ca59c8f9a82b90a86");
 SELECT * FROM `user`;
 
 -- select and count everything in the `user` table where name contains 'smith'
-SELECT COUNT(*) FROM `user` WHERE userName LIKE "%smith%";
+SELECT COUNT(*) FROM `user` WHERE userName LIKE "%Smith%";
 
-SELECT favoritesTrackId, favoritesUserId FROM favorites INNER JOIN `user` ON favorites.favoritesUserId = `user`.userId;
+-- select from favorites table and join to
+SELECT favorites.favoritesUserId, favorites.favoritesTrackId FROM favorites INNER JOIN `user` ON `user`.userId = favorites.favoritesUserId;
